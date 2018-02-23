@@ -1,0 +1,16 @@
+Stocks application
+
+A simple Spring Boot application containing a REST service:
+- GET /api/stocks (get a list of stocks) 
+- GET /api/stocks/1 (get one stock from the list) 
+- PUT /api/stocks/1 (update the price of a single stock)
+- DELETE /api/stocks/1 (delete one stock)
+- POST /api/stocks (create a stock)
+and an interface to interact with this service.
+
+System requirements:
+- Java Runtime Environment (JRE) 8.0
+
+Run the application:
+- run command  '$ java -jar stocks-1.0.jar'
+- open a browser and goto 'http://localhost:8080/' 

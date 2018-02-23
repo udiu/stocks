@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Stocks App</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="stocks.js"></script>
+</head>
+<body>
+	<div class="page-header">
+		<h1>
+			<a href="/stocks.html"> Stocks </a>
+		</h1>
+	</div>
+	<div class="container">
+		<h3>Add item:</h3>
+		<form action="" id="addForm" class="form-inline" method="post">
+			<div class="form-group">
+				<label for="name">Name:</label> 
+				<input type="text" class="form-control" id="name" /> 
+				<label for="name">Amount:</label>
+				<input type="text" class="form-control" id="amount" /> 
+				<input type="submit" class="btn" id="addSubmit" value="Add">
+			</div>
+		</form>
+		<h3>Available items:</h3>
+		<p class="stocks-list">No stocks available</p>
+	</div>
+</body>
+</html>
