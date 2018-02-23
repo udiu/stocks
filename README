@@ -11,6 +11,15 @@ and an interface to interact with this service.
 System requirements:
 - Java Runtime Environment (JRE) 8.0
 
+
 Run the application:
-- run command  '$ java -jar stocks-1.0.jar'
-- open a browser and goto 'http://localhost:8080/' 
+
+From IDE:
+- Run main class - StocksApplication.java
+- Open a browser and goto 'http://localhost:8080/'
+	
+Command line:	
+- run command  '$ mvn package' in app root folder	
+- run command  '$ java -jar stocks-1.0.jar' from target folder
+- open a browser and goto 'http://localhost:8080/'
+ 
